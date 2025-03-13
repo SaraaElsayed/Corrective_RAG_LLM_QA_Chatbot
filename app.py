@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1x15B2MqaoYKN8vmvaDIMjhhFSSAELiDh
 """
 
-!pip install -q langchain langchain-community langchain-experimental chromadb transformers spacy sentence-transformers gpt4all tavily-python
-
-!pip install pypdf gradio
-
-!python -m spacy download en_core_web_sm
 
 from google.colab import userdata
 !huggingface-cli login --token {userdata.get('hf-token')}
