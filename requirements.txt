@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-experimental
+chromadb
+transformers
+spacy
+sentence-transformers
+gpt4all
+tavily-python
+pypdf
+gradio
