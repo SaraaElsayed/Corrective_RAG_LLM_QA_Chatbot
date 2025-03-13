@@ -1,7 +1,7 @@
-#Corrective RAG LLM Q&A Chatbot 🤖
+# Corrective RAG LLM Q&A Chatbot 🤖
 Welcome to the Corrective RAG LLM Q&A Chatbot repository! This project is a Retrieval-Augmented Generation (RAG) based chatbot that answers questions by retrieving and refining information from documents and web searches. It uses state-of-the-art language models like Mistral-7B and tools like LangChain, ChromaDB, and Gradio to provide accurate and concise answers.
 
-##Features ✨
+## Features ✨
 Document Retrieval: Extracts and processes information from PDF documents using semantic chunking and vector embeddings.
 
 Knowledge Refinement: Evaluates and refines retrieved documents to ensure relevance and accuracy.
@@ -10,7 +10,7 @@ Web Search Integration: Performs web searches to fetch additional context when l
 
 Interactive Interface: Built with Gradio for a user-friendly chatbot interface.
 
-##Tech Stack 🛠️
+## Tech Stack 🛠️
 Language Model: Mistral-7B-Instruct (mistralai/Mistral-7B-Instruct-v0.3)
 
 Embeddings: GPT4All Embeddings
@@ -27,7 +27,7 @@ Hugging Face Space 🌐
 Try the chatbot live on Hugging Face Spaces:
 Hugging Face Spaces
 
-##Setup and Installation 🚀
+## Setup and Installation 🚀
 1. Clone the Repository
 ```bash
 $ git clone https://github.com/SaraaElsayed/Corrective_RAG_LLM_QA_Chatbot.git
@@ -55,22 +55,17 @@ $ python app.py
 ```
 The app will be available at http://127.0.0.1:7860
 
-##How It Works 🧠
+## How It Works 🧠
+
 Document Processing:
-
 PDFs are loaded and split into semantic chunks using SemanticChunker.
-
 Chunks are embedded using GPT4AllEmbeddings and stored in ChromaDB.
 
 Question Answering:
-
 The chatbot retrieves relevant documents from ChromaDB based on the user's question.
-
 It evaluates the relevance of the documents and refines the knowledge if necessary.
-
 If no relevant documents are found, it performs a web search using the Tavily Search API.
 
 Response Generation:
-
 The chatbot generates a concise and accurate answer using the Mistral-7B model.
 
