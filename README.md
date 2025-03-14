@@ -23,10 +23,6 @@ Web Search: Tavily Search API
 
 UI: Gradio
 
-Hugging Face Space 🌐
-Try the chatbot live on Hugging Face Spaces:
-[Hugging Face Spaces](https://huggingface.co/spaces/Saraay/Corrective_RAG_LLM_QA_Chatbot)
-
 ## Setup and Installation 🚀
 1. Clone the Repository
 ```bash
